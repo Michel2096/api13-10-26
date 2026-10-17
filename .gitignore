@@ -1,0 +1,29 @@
+# Dependencias
+node_modules/
+
+# Bases de datos locales (SQLite)
+data/*.db
+data/*.db-*
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editores
+.vscode/
+.idea/
